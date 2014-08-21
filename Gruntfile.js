@@ -55,7 +55,7 @@ module.exports = function(grunt) {
       },
       full: {
         src: ['lib/dust.js', 'lib/parser.js', 'lib/compiler.js'],
-        dest: 'tmp/dust-full.js'
+        dest: 'tmp/dust.js'
       }
     },
     copy: {
@@ -68,12 +68,12 @@ module.exports = function(grunt) {
         dest: 'dist/dust-core.min.js'
       },
       full: {
-        src: 'tmp/dust-full.js',
-        dest: 'dist/dust-full.js'
+        src: 'tmp/dust.js',
+        dest: 'dist/dust.js'
       },
       fullMin: {
-        src: 'tmp/dust-full.min.js',
-        dest: 'dist/dust-full.min.js'
+        src: 'tmp/dust.min.js',
+        dest: 'dist/dust.min.js'
       },
       license: {
         src: 'LICENSE',
@@ -93,7 +93,7 @@ module.exports = function(grunt) {
       },
       full: {
         src: '<%= concat.full.dest %>',
-        dest: 'tmp/dust-full.min.js'
+        dest: 'tmp/dust.min.js'
       }
     },
     compress: {

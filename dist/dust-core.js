@@ -671,8 +671,11 @@
             chunk = body(chunk, context.push(elem[i], i, len));
           }
           if(context.stack.head) {
-            context.stack.head['$idx'] = undefined;
-            context.stack.head['$len'] = undefined;
+            /* S. Francis modify: delete props instead of setting to undefined to avoid these props showing up on $scope */
+            //context.stack.head['$idx'] = undefined;
+            //context.stack.head['$len'] = undefined;
+            delete context.stack.head['$idx'];
+            delete context.stack.head['$len'];
           }
           return chunk;
         }
