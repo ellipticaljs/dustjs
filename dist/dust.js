@@ -899,6 +899,7 @@
             chunk = body(chunk, context.push(elem[i], i, len));
           }
 
+          /**MODIFICATION **/
           delete head.$idx;
           delete head.$len;
           if (index_) {
@@ -913,6 +914,7 @@
               delete head.$0;
             }
           }
+          /** END MODIFICATION **/
 
           return chunk;
 
