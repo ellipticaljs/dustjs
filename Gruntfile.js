@@ -46,7 +46,7 @@ module.exports = function(grunt) {
       },
       full: {
         src: ['lib/dust.js', 'lib/parser.js', 'lib/compiler.js', 'src/amd-full.js'],
-        dest: 'tmp/dust-full.js'
+        dest: 'tmp/dust.js'
       }
     },
     copy: {
@@ -142,11 +142,11 @@ module.exports = function(grunt) {
       },
       /*tests production (minified) code*/
       testProd: {
-        src: 'tmp/dust-full.min.js'
+        src: 'tmp/dust.min.js'
       },
       /*tests unminified code, mostly used for debugging by `grunt dev` task*/
       testDev : {
-        src: 'tmp/dust-full.js'
+        src: 'tmp/dust.js'
       },
       /*runs unit tests with jasmine and collects test coverage info via istanbul template
       * tests unminified version of dust to make sure test coverage starts are correctly calculated
@@ -154,7 +154,7 @@ module.exports = function(grunt) {
       * debugging while developing. Use jasmine:testClient instead, which runs on unminified code
       * and can be easily debugged*/
       coverage : {
-        src: 'tmp/dust-full.js',
+        src: 'tmp/dust.js',
         options: {
           display: 'none',
           template: require('grunt-template-jasmine-istanbul'),

@@ -1,12 +1,6 @@
 {
-<<<<<<< HEAD
-  "name": "dustjs-elliptical",
-  "title": "Dust - Asynchronous Templating",
-  "version": "2.3.6",
-=======
   "name": "dustjs-linkedin",
   "version": "2.7.2",
->>>>>>> upstream/master
   "author": {
     "name": "Aleksander Williams",
     "url": "http://akdubya.github.com/dustjs"
