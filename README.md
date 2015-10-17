@@ -1,68 +1,32 @@
-Dust  [![Build Status](https://secure.travis-ci.org/linkedin/dustjs.png)](http://travis-ci.org/linkedin/dustjs)
-====
-This is the LinkedIn fork of Dust.
+# Dust.js [![Build Status](https://secure.travis-ci.org/linkedin/dustjs.png)](http://travis-ci.org/linkedin/dustjs) [![Sauce Test Status](https://saucelabs.com/buildstatus/dustjs)](https://saucelabs.com/u/dustjs)
 
-## Getting Started
-A quick tutorial for how to use Dust <https://github.com/linkedin/dustjs/wiki/Dust-Tutorial>
+Asynchronous Javascript templating for the browser and server. This fork is maintained by [LinkedIn](http://linkedin.github.io/).
 
-More info <http://linkedin.github.io/dustjs/> and <http://linkedin.github.io/dustjs/#installation>
+## Install
 
+### NPM
 
-## More
-Read more here: <http://linkedin.github.com/dustjs/>.
+**Important**: We recommend that you lock your version of Dust to a specific minor version, instead of a major version. By default, NPM will add `"dustjs-linkedin": "^2.x.y"` to your package.json, which will install new minor versions automatically.
 
-For LinkedIn dust-helpers:  <https://github.com/linkedin/dustjs-helpers>.
+    npm install --save --production dustjs-linkedin
+    # If you want the dustc compiler available globally
+    npm install --global --production dustjs-linkedin
 
-For LinkedIn secure-filters : <https://github.com/linkedin/dustjs-filters-secure>.
+If you want to add the [Dust helpers](https://github.com/linkedin/dustjs-helpers) or [secure filters](https://github.com/linkedin/dustjs-filters-secure):
 
+    npm install --save --production dustjs-helpers
+    npm install --save --production dustjs-filters-secure
 
-## Building Dust locally
-### Grab a copy of the repo
-```
-cd some_project_directory
-git clone https://github.com/linkedin/dustjs.git dustjs
-cd dustjs
+### Bower
 
-```
+    bower install --save dustjs-linkedin
 
-### (Optional) Install Grunt-cli
-* Grunt-cli lets you run Grunt from within a subfolder see http://gruntjs.com/getting-started
-```
-npm install -g grunt-cli
-```
+## Get Started
 
-### fetch all the node dependencies
-```
-npm install
-```
-### Run jshint and tests
-```
-grunt test
-```
+* Read [dustjs.com](http://www.dustjs.com/) for guides, tutorials, and documentation.
+* Check out the `examples/` directory in the repo for simple examples to help you get started using Dust in a variety of ways.
 
-## Contributing to Dust
+## Contribute
 
-### setup a branch for what you are working on
-```
-git checkout -b myBranchName
-```
-
-### Run jshint and tests
-```
-grunt test
-```
-
-### ... alternatively, run the watcher which hints and tests as you code
-```
-grunt watch
-```
-
-### Add unit tests
-Unit tests can be found in the `test/jasmine-tests/spec` directory
-
-### Add an issue and send a pull request
-Pull requests are easier to track if you also include an issue
-sending a pull request from a branch makes it easier for you to resolve conflicts in master
-
-
-
+* The team provides support on [Stack Overflow](https://stackoverflow.com/questions/tagged/dust.js), so that's the best place to ask questions.
+* Bug or feature? We welcome issues and pull requests! If you'd like to submit a PR, check out the guide to [contributing](https://github.com/linkedin/dustjs/wiki/Contributing). PRs should include unit tests.

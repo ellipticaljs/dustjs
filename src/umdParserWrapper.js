@@ -1,6 +1,10 @@
-/* BUILD_MESSAGE_HERE */
+/* @@build */
 (function(root, factory) {
-  if (typeof exports === 'object') {
+  if (typeof define === "function" && define.amd && define.amd.dust === true) {
+    define("dust.parse", ["dust.core"], function(dust) {
+      return factory(dust).parse;
+    });
+  } else if (typeof exports === 'object') {
     // in Node, require this file if we want to use the parser as a standalone module
     module.exports = factory(require('./dust'));
     // @see server file for parser methods exposed in node
@@ -9,12 +13,10 @@
     factory(root.dust);
   }
 }(this, function(dust) {
-  var parser = 'PARSER_CODE_HERE';
+  var parser = @@parser;
 
   // expose parser methods
   dust.parse = parser.parse;
 
   return parser;
 }));
-  
-
