@@ -1,12 +1,12 @@
 {
-  "name": "dustjs-linkedin",
+  "name": "dustjs",
   "version": "2.7.2",
   "author": {
     "name": "Aleksander Williams",
     "url": "http://akdubya.github.com/dustjs"
   },
   "homepage": "http://dustjs.com/",
-  "description": "Asynchronous templates for the browser and server (LinkedIn fork)",
+  "description": "Asynchronous templates for the browser and server",
   "contributors": [
     "Veena Basavaraj <vybs@users.noreply.github.com>",
     "Tom Carchrae",
@@ -16,7 +16,8 @@
     "Seth Kinast <skinast@linkedin.com>",
     "Jairo de Morais <jairodemorais@users.noreply.github.com>",
     "Kate Odnous <kodnous@linkedin.com>",
-    "Richard Ragan <rragan@ebay.com>"
+    "Richard Ragan <rragan@ebay.com>",
+    "S. Francis"
   ],
   "scripts": {
     "test": "grunt travis"
