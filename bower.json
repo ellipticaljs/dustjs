@@ -1,7 +1,7 @@
 {
-  "name": "dustjs-linkedin",
+  "name": "elliptical-dustjs",
   "version": "2.7.2",
-  "homepage": "https://github.com/linkedin/dustjs",
+  "homepage": "https://github.com/tachyon1337/dustjs.git",
   "authors": [
     "Veena Basavaraj <vybs@users.noreply.github.com>",
     "Tom Carchrae",
@@ -12,15 +12,12 @@
     "Jairo de Morais <jairodemorais@users.noreply.github.com>",
     "Kate Odnous <kodnous@linkedin.com>",
     "Richard Ragan <rragan@ebay.com>",
-    "Aleksander Williams (http://akdubya.github.com/dustjs)"
+    "Aleksander Williams (http://akdubya.github.com/dustjs)",
+    "S.Francis"
   ],
   "description": "asynchronous Javascript templating for the browser and server",
-  "main": "dist/dust-full.min.js",
-  "moduleType": [
-    "amd",
-    "globals",
-    "node"
-  ],
+  "main": "dist/dust.js",
+  "moduleType": [],
   "keywords": [
     "templates",
     "views",
@@ -45,6 +42,8 @@
     "test",
     "tmp",
     "Gruntfile.js",
-    "package.json"
+    "package.json",
+    "bower_components",
+    "tests"
   ]
 }
