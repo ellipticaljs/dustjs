@@ -1,6 +1,6 @@
 {
   "name": "dustjs",
-  "version": "2.7.9",
+  "version": "2.7.11",
   "author": {
     "name": "Aleksander Williams",
     "url": "http://akdubya.github.com/dustjs"
@@ -29,7 +29,7 @@
   "browser": "./lib/dust.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tachyon1337/dustjs.git"
+    "url": "https://github.com/ellipticaljs/dustjs.git"
   },
   "keywords": [
     "templates",

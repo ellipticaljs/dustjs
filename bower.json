@@ -1,7 +1,7 @@
 {
   "name": "elliptical-dustjs",
-  "version": "2.7.9",
-  "homepage": "https://github.com/tachyon1337/dustjs.git",
+  "version": "2.7.11",
+  "homepage": "https://github.com/ellipticaljs/dustjs.git",
   "authors": [
     "Veena Basavaraj <vybs@users.noreply.github.com>",
     "Tom Carchrae",
