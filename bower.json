@@ -44,6 +44,14 @@
     "Gruntfile.js",
     "package.json",
     "bower_components",
-    "tests"
+    "tests",
+    "index.html",
+    "build.json",
+    "bundle.json",
+    ".nvmrc",
+    ".eslintrc",
+    "bin",
+    "CHANGELOG.md",
+    "demos"
   ]
 }

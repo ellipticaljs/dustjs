@@ -1,5 +1,9 @@
 # Dust.js [![Build Status](https://secure.travis-ci.org/linkedin/dustjs.png)](http://travis-ci.org/linkedin/dustjs) [![Sauce Test Status](https://saucelabs.com/buildstatus/dustjs)](https://saucelabs.com/u/dustjs)
 
+# NOTICE
+
+This forked repo is now deprecated. The project has moved to https://github.com/ellipticaljs/dustjs
+
 Asynchronous Javascript templating for the browser and server. This fork is maintained by [LinkedIn](http://linkedin.github.io/).
 
 ## Install
